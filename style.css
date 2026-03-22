@@ -8,8 +8,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background: linear-gradient(135deg, #818181, #184050);
-  /* background: #363636; */
+  background: linear-gradient(135deg, #ffffff, #e9dcf9);
+  /* background: #f1f3f5; */
 }
 .container {
   max-width: 800px;
@@ -28,7 +28,7 @@ body {
   border-radius: 5px;
   border: 2px solid #c0b9b9;
   border-bottom: none;
-  color: #fff;
+  color: #000;
 }
 .container .main-container {
   display: flex;
@@ -62,14 +62,14 @@ body {
 .left .top-part {
   /* border-bottom: none; */
   border-right: none;
-  border-bottom: 2px solid #dee5e7;
-  border-right: 2px solid #f3fcff;
-  color: #fff;
+  border-bottom: none;
+  /* border-right: 2px solid #ffffff; */
+  color: #000;
 }
 .left .bottom-part {
   border-left: none;
-  border-top: 2px solid #dee4e7;
-  border-left: 2px solid #f0faff;
+  border-top: none;
+  /* border-left: 2px solid #ffffff; */
 }
 
 .left .top-part,
@@ -292,10 +292,10 @@ body {
   font-weight: 500;
 }
 #process-information {
-  color: #fff;
+  color: #000;
 }
 .actual-val {
-  color: #fff;
+  color: #000;
 }
 
 #val-a,
