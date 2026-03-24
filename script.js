@@ -12,6 +12,9 @@ const valA = document.getElementById("val-a");
 const valB = document.getElementById("val-b");
 const valC = document.getElementById("val-c");
 
+const topPart = document.querySelector(".top-part");
+const menuBtn = document.getElementById("menu-btn");
+
 const messageBox = document.getElementById("message-container-box");
 let messageBoxContent = document.getElementById("msg-in-box");
 const messageCloseBtn = document.getElementById("message-close-btn");
@@ -64,6 +67,9 @@ const saveInputVals = () => {
     showSaveMsg(`Values saved successfully!`);
     initilizeInput();
   }
+  setTimeout(() => {
+    topPart.classList.remove("active-display");
+  }, 1700);
 };
 const resetConfiguration = () => {
   valA.innerText = "";
@@ -163,6 +169,11 @@ const executeSwap = () => {
   }
 };
 
+const manageMenuVisibility = () => {
+  console.log("clicked");
+  topPart.classList.toggle("active-display");
+};
+
 saveBtn.addEventListener("click", () => {
   saveInputVals();
 });
@@ -175,4 +186,8 @@ resetBtn.addEventListener("click", () => {
 });
 messageCloseBtn.addEventListener("click", () => {
   messageBox.classList.remove("active");
+});
+
+menuBtn.addEventListener("click", () => {
+  manageMenuVisibility();
 });
