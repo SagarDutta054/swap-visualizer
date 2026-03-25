@@ -215,6 +215,8 @@ body {
 }
 .actual-val {
   color: rgb(50, 130, 199);
+  width: 100px;
+  overflow-x: auto;
 }
 
 .message-container-box {
@@ -501,7 +503,10 @@ body {
   .menu-btn {
     display: flex;
   }
-  #save-notification-message{
+  #save-notification-message {
     width: 70%;
+  }
+  .actual-val{
+    width: 50px;
   }
 }
