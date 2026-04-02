@@ -1,1 +1,2 @@
-The SWAP visualizer helps to understand how the values between two variables are swapped or interchanged using a third variable. JavaScript is used to control the CSS position of the values in step changes.
+#Swap-visualizer
+The Swap visualizer helps to understand how the values between two variables are swapped or interchanged using a third variable. JavaScript is used to control the CSS position of the values in step changes.
